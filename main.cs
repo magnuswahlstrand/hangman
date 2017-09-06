@@ -112,7 +112,6 @@ namespace testprogram
 		private static bool debug_on = false;
 		private int noMaxGuesses = 3;
 
-		// Run the hangman game
 		public void Run()
 		{
 
@@ -187,7 +186,7 @@ namespace testprogram
 		{
 
 			//Kallast.Run();
-			//Picnick.Run();	
+			//Picnick.Run();
 			Hangman game = new Hangman();
 			game.Run();
 		}
